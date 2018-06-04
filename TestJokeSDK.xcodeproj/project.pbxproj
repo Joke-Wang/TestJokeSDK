@@ -13,6 +13,7 @@
 		84436C0E20C54064004475A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84436C0D20C54064004475A2 /* Assets.xcassets */; };
 		84436C1120C54064004475A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84436C0F20C54064004475A2 /* LaunchScreen.storyboard */; };
 		84436C1420C54064004475A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84436C1320C54064004475A2 /* main.m */; };
+		84436C1C20C5432A004475A2 /* TestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 84436C1B20C5432A004475A2 /* TestLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		84436C1020C54064004475A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84436C1220C54064004475A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84436C1320C54064004475A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84436C1A20C5432A004475A2 /* TestLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLog.h; sourceTree = "<group>"; };
+		84436C1B20C5432A004475A2 /* TestLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				84436C0520C5405F004475A2 /* AppDelegate.m */,
 				84436C0720C5405F004475A2 /* ViewController.h */,
 				84436C0820C5405F004475A2 /* ViewController.m */,
+				84436C1A20C5432A004475A2 /* TestLog.h */,
+				84436C1B20C5432A004475A2 /* TestLog.m */,
 				84436C0A20C5405F004475A2 /* Main.storyboard */,
 				84436C0D20C54064004475A2 /* Assets.xcassets */,
 				84436C0F20C54064004475A2 /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			files = (
 				84436C0920C5405F004475A2 /* ViewController.m in Sources */,
 				84436C1420C54064004475A2 /* main.m in Sources */,
+				84436C1C20C5432A004475A2 /* TestLog.m in Sources */,
 				84436C0620C5405F004475A2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
