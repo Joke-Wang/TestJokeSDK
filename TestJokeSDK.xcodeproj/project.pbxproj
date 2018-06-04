@@ -13,10 +13,12 @@
 		84436C0E20C54064004475A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84436C0D20C54064004475A2 /* Assets.xcassets */; };
 		84436C1120C54064004475A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84436C0F20C54064004475A2 /* LaunchScreen.storyboard */; };
 		84436C1420C54064004475A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84436C1320C54064004475A2 /* main.m */; };
-		84436C2220C545B0004475A2 /* TestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 84436C2120C545B0004475A2 /* TestLog.m */; };
+		84436C2A20C548D3004475A2 /* TestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 84436C2920C548D3004475A2 /* TestLog.m */; };
+		855B65C319F9730336A02722 /* libPods-TestJokeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E41F6E44F49F92FBE9382515 /* libPods-TestJokeSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02053DF7D689BC61A733AA11 /* Pods-TestJokeSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestJokeSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestJokeSDK/Pods-TestJokeSDK.release.xcconfig"; sourceTree = "<group>"; };
 		84436C0120C5405F004475A2 /* TestJokeSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestJokeSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84436C0420C5405F004475A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84436C0520C5405F004475A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,8 +29,10 @@
 		84436C1020C54064004475A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84436C1220C54064004475A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84436C1320C54064004475A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84436C2020C545B0004475A2 /* TestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLog.h; sourceTree = "<group>"; };
-		84436C2120C545B0004475A2 /* TestLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLog.m; sourceTree = "<group>"; };
+		84436C2820C548D3004475A2 /* TestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLog.h; sourceTree = "<group>"; };
+		84436C2920C548D3004475A2 /* TestLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLog.m; sourceTree = "<group>"; };
+		E41F6E44F49F92FBE9382515 /* libPods-TestJokeSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestJokeSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51875A83A68D16A90EF0F9C /* Pods-TestJokeSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestJokeSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestJokeSDK/Pods-TestJokeSDK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,18 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				855B65C319F9730336A02722 /* libPods-TestJokeSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AE4F93B256A036F01E03C4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E41F6E44F49F92FBE9382515 /* libPods-TestJokeSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84436BF820C5405F004475A2 = {
 			isa = PBXGroup;
 			children = (
-				84436C1F20C545B0004475A2 /* Classes */,
+				84436C2720C548D3004475A2 /* Classes */,
 				84436C0320C5405F004475A2 /* TestJokeSDK */,
 				84436C0220C5405F004475A2 /* Products */,
+				FC8F6386EB456D78C164C012 /* Pods */,
+				0AE4F93B256A036F01E03C4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,13 +90,22 @@
 			path = TestJokeSDK;
 			sourceTree = "<group>";
 		};
-		84436C1F20C545B0004475A2 /* Classes */ = {
+		84436C2720C548D3004475A2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				84436C2020C545B0004475A2 /* TestLog.h */,
-				84436C2120C545B0004475A2 /* TestLog.m */,
+				84436C2820C548D3004475A2 /* TestLog.h */,
+				84436C2920C548D3004475A2 /* TestLog.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		FC8F6386EB456D78C164C012 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F51875A83A68D16A90EF0F9C /* Pods-TestJokeSDK.debug.xcconfig */,
+				02053DF7D689BC61A733AA11 /* Pods-TestJokeSDK.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84436C1720C54064004475A2 /* Build configuration list for PBXNativeTarget "TestJokeSDK" */;
 			buildPhases = (
+				2C29E509D7F7618E38B1D104 /* [CP] Check Pods Manifest.lock */,
 				84436BFD20C5405F004475A2 /* Sources */,
 				84436BFE20C5405F004475A2 /* Frameworks */,
 				84436BFF20C5405F004475A2 /* Resources */,
+				B914972C0CC05AFFB697FFE7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +175,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C29E509D7F7618E38B1D104 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestJokeSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B914972C0CC05AFFB697FFE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestJokeSDK/Pods-TestJokeSDK-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JGProgressHUD/JGProgressHUD.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JGProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestJokeSDK/Pods-TestJokeSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84436BFD20C5405F004475A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -156,7 +223,7 @@
 			files = (
 				84436C0920C5405F004475A2 /* ViewController.m in Sources */,
 				84436C1420C54064004475A2 /* main.m in Sources */,
-				84436C2220C545B0004475A2 /* TestLog.m in Sources */,
+				84436C2A20C548D3004475A2 /* TestLog.m in Sources */,
 				84436C0620C5405F004475A2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +362,7 @@
 		};
 		84436C1820C54064004475A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51875A83A68D16A90EF0F9C /* Pods-TestJokeSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,6 +379,7 @@
 		};
 		84436C1920C54064004475A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02053DF7D689BC61A733AA11 /* Pods-TestJokeSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
