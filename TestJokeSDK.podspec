@@ -33,13 +33,13 @@ A short description of TestJokeSDK.
   s.source_files  = "Classes", "Classes/**/*.framework"
   s.exclude_files = "Classes/Exclude"
 
-#    s.resource_bundles = {
-#    '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
-#  }
+# s.resource_bundles = {
+#   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
+# }
 
   # s.public_header_files = "Classes/**/*.h"
 
- s.resource  = "Classes", "Classes/**/*.bundle" #"icon.png"
+  # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
