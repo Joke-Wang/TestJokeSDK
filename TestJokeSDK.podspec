@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TestJokeSDK"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "TestJokeSDK."
   s.description  = <<-DESC
 A short description of TestJokeSDK.
