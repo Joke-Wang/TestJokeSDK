@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TestJokeSDK"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "TestJokeSDK."
   s.description  = <<-DESC
 A short description of TestJokeSDK.
@@ -20,7 +20,7 @@ A short description of TestJokeSDK.
 s.source       = { :git => "https://github.com/Joke-Wang/TestJokeSDK.git", :tag => "#{s.version}"}
 
   s.vendored_frameworks = "Classes/*.framework"
-  s.resource     = 'Assets/HeroCoinResources.bundle'
+  s.resource     = 'Assets/HeroCoinResources.bundle/**/*.png', 'Assets/HeroCoinResources.bundle/*.text'
 
 # s.requires_arc = true
 
