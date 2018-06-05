@@ -28,14 +28,9 @@ A short description of TestJokeSDK.
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/Joke-Wang/TestJokeSDK.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Joke-Wang/TestJokeSDK.git", :tag => "#{s.version}"
 
-  s.source_files  = "Classes", "Classes/**/*.framework"
-  s.exclude_files = "Classes/Exclude"
-
-# s.resource_bundles = {
-#   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
-# }
+  s.vendored_frameworks = 'Classes/**/*.framework'
 
   # s.public_header_files = "Classes/**/*.h"
 
