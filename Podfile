@@ -3,15 +3,16 @@
 
 target 'TestJokeSDK' do
 
-pod 'AFNetworking', '~> 3.0'
-pod 'Masonry'
-pod 'JGProgressHUD'
-pod 'MJRefresh'
-pod 'YYModel'
-# Facebook登录SDK
-pod 'FBSDKLoginKit'
-# Google登录SDK
-pod 'GoogleSignIn'
+#pod 'AFNetworking', '~> 3.0'
+#pod 'Masonry'
+#pod 'JGProgressHUD'
+#pod 'MJRefresh'
+#pod 'YYModel'
+## Facebook登录SDK
+#pod 'FBSDKLoginKit'
+## Google登录SDK
+#pod 'GoogleSignIn'
+pod 'TestJokeSDK'
 
 end
 

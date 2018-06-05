@@ -20,8 +20,9 @@ A short description of TestJokeSDK.
 s.source       = { :git => "https://github.com/Joke-Wang/TestJokeSDK.git", :tag => "#{s.version}"}
 
   s.vendored_frameworks = "Classes/*.framework"
+  s.resource     = 'Assets/HeroCoinResources.bundle'
 
-  # s.requires_arc = true
+# s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
     s.dependency "AFNetworking", "~> 3.0"

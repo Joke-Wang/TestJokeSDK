@@ -1,0 +1,1 @@
+../../../../TestJokeSDK/Classes/HeroCoinSDK.framework/Headers/HeroCoinSDK.h
