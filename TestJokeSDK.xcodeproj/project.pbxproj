@@ -13,7 +13,8 @@
 		84436C0E20C54064004475A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84436C0D20C54064004475A2 /* Assets.xcassets */; };
 		84436C1120C54064004475A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84436C0F20C54064004475A2 /* LaunchScreen.storyboard */; };
 		84436C1420C54064004475A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84436C1320C54064004475A2 /* main.m */; };
-		84436C2A20C548D3004475A2 /* TestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 84436C2920C548D3004475A2 /* TestLog.m */; };
+		84436C3B20C68376004475A2 /* TestJokeSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 84436C3A20C68376004475A2 /* TestJokeSDK.podspec */; };
+		84436C3D20C6854E004475A2 /* HeroCoinSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84436C3C20C6854E004475A2 /* HeroCoinSDK.framework */; };
 		855B65C319F9730336A02722 /* libPods-TestJokeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E41F6E44F49F92FBE9382515 /* libPods-TestJokeSDK.a */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +30,8 @@
 		84436C1020C54064004475A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84436C1220C54064004475A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84436C1320C54064004475A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84436C2820C548D3004475A2 /* TestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLog.h; sourceTree = "<group>"; };
-		84436C2920C548D3004475A2 /* TestLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLog.m; sourceTree = "<group>"; };
+		84436C3A20C68376004475A2 /* TestJokeSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestJokeSDK.podspec; sourceTree = "<group>"; };
+		84436C3C20C6854E004475A2 /* HeroCoinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HeroCoinSDK.framework; sourceTree = "<group>"; };
 		E41F6E44F49F92FBE9382515 /* libPods-TestJokeSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestJokeSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51875A83A68D16A90EF0F9C /* Pods-TestJokeSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestJokeSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestJokeSDK/Pods-TestJokeSDK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84436C3D20C6854E004475A2 /* HeroCoinSDK.framework in Frameworks */,
 				855B65C319F9730336A02722 /* libPods-TestJokeSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,6 +60,7 @@
 		84436BF820C5405F004475A2 = {
 			isa = PBXGroup;
 			children = (
+				84436C3A20C68376004475A2 /* TestJokeSDK.podspec */,
 				84436C2720C548D3004475A2 /* Classes */,
 				84436C0320C5405F004475A2 /* TestJokeSDK */,
 				84436C0220C5405F004475A2 /* Products */,
@@ -93,8 +96,7 @@
 		84436C2720C548D3004475A2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				84436C2820C548D3004475A2 /* TestLog.h */,
-				84436C2920C548D3004475A2 /* TestLog.m */,
+				84436C3C20C6854E004475A2 /* HeroCoinSDK.framework */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -169,6 +171,7 @@
 			files = (
 				84436C1120C54064004475A2 /* LaunchScreen.storyboard in Resources */,
 				84436C0E20C54064004475A2 /* Assets.xcassets in Resources */,
+				84436C3B20C68376004475A2 /* TestJokeSDK.podspec in Resources */,
 				84436C0C20C5405F004475A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +232,6 @@
 			files = (
 				84436C0920C5405F004475A2 /* ViewController.m in Sources */,
 				84436C1420C54064004475A2 /* main.m in Sources */,
-				84436C2A20C548D3004475A2 /* TestLog.m in Sources */,
 				84436C0620C5405F004475A2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +374,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Classes",
+				);
 				INFOPLIST_FILE = TestJokeSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -389,6 +395,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Classes",
+				);
 				INFOPLIST_FILE = TestJokeSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
