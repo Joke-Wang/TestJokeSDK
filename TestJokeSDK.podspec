@@ -20,7 +20,7 @@ A short description of TestJokeSDK.
   # s.social_media_url   = "http://twitter.com/"
 
    s.platform     = :ios
-   s.platform     = :ios, "5.0"
+   s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -30,8 +30,14 @@ A short description of TestJokeSDK.
 
   s.source       = { :git => "https://github.com/Joke-Wang/TestJokeSDK.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "Classes/**/*.framework"
   s.exclude_files = "Classes/Exclude"
+
+#    s.resource_bundles = {
+#    '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
+#  }
+
+    s.resource_bundles  = "Assets", "Assets/**/*.bundle"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -50,6 +56,13 @@ A short description of TestJokeSDK.
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+    s.dependency "AFNetworking", "~> 3.0"
+    s.dependency "Masonry"
+    s.dependency "JGProgressHUD"
+    s.dependency "MJRefresh"
+    s.dependency "YYModel"
+    s.dependency "FBSDKLoginKit"
+    s.dependency "GoogleSignIn"
+
 
 end
