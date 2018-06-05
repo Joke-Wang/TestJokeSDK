@@ -37,11 +37,9 @@ A short description of TestJokeSDK.
 #    '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
 #  }
 
-    s.resource_bundles  = "Assets", "Assets/**/*.bundle"
-
   # s.public_header_files = "Classes/**/*.h"
 
-  # s.resource  = "icon.png"
+ s.resource  = "Classes", "Classes/**/*.bundle" #"icon.png"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
