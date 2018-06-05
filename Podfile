@@ -12,7 +12,7 @@ target 'TestJokeSDK' do
 #pod 'FBSDKLoginKit'
 ## Google登录SDK
 #pod 'GoogleSignIn'
-pod 'TestJokeSDK'
+pod 'TestJokeSDK', '~> 0.0.2'
 
 end
 

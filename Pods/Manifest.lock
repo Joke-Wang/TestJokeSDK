@@ -47,7 +47,7 @@ PODS:
   - JGProgressHUD (2.0.3)
   - Masonry (1.1.0)
   - MJRefresh (3.1.15.3)
-  - TestJokeSDK (0.0.1):
+  - TestJokeSDK (0.0.2):
     - AFNetworking (~> 3.0)
     - FBSDKLoginKit
     - GoogleSignIn
@@ -58,7 +58,7 @@ PODS:
   - YYModel (1.0.4)
 
 DEPENDENCIES:
-  - TestJokeSDK
+  - TestJokeSDK (~> 0.0.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -88,9 +88,9 @@ SPEC CHECKSUMS:
   JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
-  TestJokeSDK: 5f1e49d6cf6699b797bc5ed7e091f1230ac47283
+  TestJokeSDK: 10f697ea7140680fa2911f2b780a9ef7e22d2e5f
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 571ec20095016a760a98023b6a6270ce2f20839b
+PODFILE CHECKSUM: e973e65a80284756fd0eafc367dd1fa2ef5dc5c4
 
 COCOAPODS: 1.5.3

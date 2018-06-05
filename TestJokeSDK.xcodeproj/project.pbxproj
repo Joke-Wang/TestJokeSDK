@@ -14,7 +14,6 @@
 		84436C1120C54064004475A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84436C0F20C54064004475A2 /* LaunchScreen.storyboard */; };
 		84436C1420C54064004475A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84436C1320C54064004475A2 /* main.m */; };
 		84436C3B20C68376004475A2 /* TestJokeSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 84436C3A20C68376004475A2 /* TestJokeSDK.podspec */; };
-		84436C3D20C6854E004475A2 /* HeroCoinSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84436C3C20C6854E004475A2 /* HeroCoinSDK.framework */; };
 		855B65C319F9730336A02722 /* libPods-TestJokeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E41F6E44F49F92FBE9382515 /* libPods-TestJokeSDK.a */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 		84436C1220C54064004475A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84436C1320C54064004475A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84436C3A20C68376004475A2 /* TestJokeSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestJokeSDK.podspec; sourceTree = "<group>"; };
-		84436C3C20C6854E004475A2 /* HeroCoinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HeroCoinSDK.framework; sourceTree = "<group>"; };
 		E41F6E44F49F92FBE9382515 /* libPods-TestJokeSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestJokeSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51875A83A68D16A90EF0F9C /* Pods-TestJokeSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestJokeSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestJokeSDK/Pods-TestJokeSDK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,7 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84436C3D20C6854E004475A2 /* HeroCoinSDK.framework in Frameworks */,
 				855B65C319F9730336A02722 /* libPods-TestJokeSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				84436C3A20C68376004475A2 /* TestJokeSDK.podspec */,
-				84436C2720C548D3004475A2 /* Classes */,
 				84436C0320C5405F004475A2 /* TestJokeSDK */,
 				84436C0220C5405F004475A2 /* Products */,
 				FC8F6386EB456D78C164C012 /* Pods */,
@@ -91,14 +87,6 @@
 				84436C1320C54064004475A2 /* main.m */,
 			);
 			path = TestJokeSDK;
-			sourceTree = "<group>";
-		};
-		84436C2720C548D3004475A2 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				84436C3C20C6854E004475A2 /* HeroCoinSDK.framework */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		FC8F6386EB456D78C164C012 /* Pods */ = {
@@ -209,6 +197,7 @@
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/JGProgressHUD/JGProgressHUD.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/TestJokeSDK/Assets/HeroCoinResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -217,6 +206,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JGProgressHUD.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HeroCoinResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
